@@ -523,7 +523,7 @@ def play_again():
         if again == "":
             continue
         if again == "1":
-            main()
+            menu()
         if again == "2":
             print("\nFarewell Dear Pirate! Arr!\n")
             quit()
@@ -582,9 +582,7 @@ def main():
     global BOARD
     global SHIPS_TO_PLACE
     global LIMIT
-    SIZE = 5
 
-    LIMIT = SIZE * SIZE
     SHIPS_TO_PLACE = 6
 
 
